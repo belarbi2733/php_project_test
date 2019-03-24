@@ -14,7 +14,7 @@ class ConnexionTest extends PHPUnit_Framework_TestCase
      *
      * @var Connexion
      */
-    public $connexiontest
+    public $connexiontest;
     private $connexion;
     public function setUp()
     {
