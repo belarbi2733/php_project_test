@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 //require_once("../../lib/go-pear.phar");
 
 use PHPUnit\Framework\TestCase;
-require_once(__DIR__.'/../configuration.php');
+require_once(__DIR__.'/configuration.php');
 load_model('UserModel');
 
 // Connexion test case
