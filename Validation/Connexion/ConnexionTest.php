@@ -3,8 +3,10 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 //require_once("../../lib/go-pear.phar");
-define("__ROOT__",dirname(dirname(dirname(__FILE__))));
-require_once(__ROOT__.'/WebPortal/application/models/UserModel.php');
+
+use PHPUnit\Framework\TestCase;
+require_once(__DIR__.'/../configuration.php');
+load_model('UserModel');
 
 // Connexion test case
 class ConnexionTest extends PHPUnit_Framework_TestCase
